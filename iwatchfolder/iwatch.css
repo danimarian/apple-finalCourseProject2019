@@ -1,0 +1,326 @@
+body {
+margin:0;
+padding:0;
+background-color:white;
+}
+.header {
+	display:grid;
+	width:100%;
+	height:43px;
+	background:#2c2c2c;
+	opacity: .96;
+	text-align:center;
+	align-items:fixed;
+	color:#FAFAFA;
+	position:fixed;
+	font-family:'Open Sans Condensed';
+	z-index:999;
+	word-spacing:20px;
+	letter-spacing:0.2px;
+} 
+.header > div > span {
+	padding-right:25px;
+	padding-left:25px;
+	font-size:19px;
+}
+.header > div > span:hover {
+	color:#959595;
+}
+.header a {
+  color: inherit;
+  text-decoration:inherit;
+  font-size:19px;
+  padding-right:25px;
+  padding-left:25px;
+}
+.header > div > a:hover {
+	color:#959595;
+}
+.header img{
+	width:25px;	
+}
+.iwatchmenu{
+	color:#959595;
+}
+.iwatchmenu{
+	color:#959595;;
+}
+/*header ok*/
+.iwatch4head {
+	height:10px;
+	text-align:center;
+	font-size:35px;
+	padding-top:55px;
+	font-family:"Arial";
+	font-weight:bold;
+	letter-spacing:1px;
+	padding-top:70px;
+	margin-top:0px;
+	margin-bottom:-55px;
+}
+.iwatch4 {
+	background-image:url('applewatch4ok.jpeg');
+	width:100%;
+	height:800px;
+	background-repeat: no-repeat;
+	background-position:center;
+	transition:1s ease-in;
+	transition-delay:0.5s;
+}
+.iwatch4:hover {
+	background:url("applewatch.gif");
+	transition:1s ease-in;
+	align-items:center;
+	width:600px 90%;
+	background-repeat: no-repeat;
+	background-position:center;
+	transition:1s ease-in;
+	transition-delay:0.5s; 
+}
+#detalii4 {
+	float:left;
+	text-align:left;
+	margin-top:400px;
+	margin-left:4%;
+	font-size:20px;
+}
+.iwatch4 a {
+	color:inherit;
+	text-decoration:inherit;
+}
+#detalii4:hover {
+	text-decoration:underline;
+}
+#cumpara4 {
+	float:right;
+	text-align:right;
+	margin-top:400px;
+	margin-right:4%;
+	font-size:20px;
+}
+#cumpara4 a {
+	color:inherit;
+	text-decoration:inherit;
+}
+#cumpara4:hover {
+	text-decoration:underline;
+}
+.nike4head {
+	height:10px;
+	text-align:center;
+	font-size:35px;
+	padding-top:55px;
+	font-family:"Arial";
+	font-weight:bold;
+	letter-spacing:1px;
+	padding-top:50px;
+	margin-top:0px;
+}
+.nike {
+	background-image:url('nike.jpg');
+	width:100%;
+	height:700px;
+	background-size: 100% 700px;
+	background-repeat: no-repeat;
+	background-position:center;
+	transition:1s ease-in;
+	transition-delay:0.5s;
+}
+.nike:hover {
+	background:url("apple-watch-2-nike-inline.gif.large.gif");
+	align-items:center;
+	background-size:70% 500px;
+	background-repeat: no-repeat;
+	background-position:center;
+	transition:1s ease-in;
+	transition-delay:0.5s; 
+}
+#detaliinike {
+	float:left;
+	text-align:left;
+	margin-top:350px;
+	margin-left:4%;
+	font-size:20px;
+}
+.nike a {
+	color:inherit;
+	text-decoration:inherit;
+}
+#detaliinike:hover {
+	text-decoration:underline;
+}
+#cumparanike {
+	float:right;
+	text-align:right;
+	margin-top:350px;
+	margin-right:4%;
+	font-size:20px;
+}
+#cumparanike a {
+	color:inherit;
+	text-decoration:inherit;
+}
+#cumparanike:hover {
+	text-decoration:underline;
+}
+.serie3head {
+	height:10px;
+	text-align:center;
+	font-size:35px;
+	padding-top:0px;
+	font-family:"Arial";
+	font-weight:bold;
+	letter-spacing:1px;
+	margin-top:0;	
+}
+.serie3 {
+	background-image:url('apple-watch-series-3.jpg');
+	width:100%;
+	height:700px;
+	background-size: 100% 700px;
+	background-repeat: no-repeat;
+	background-position:center;
+	margin-top:-60;
+	transition:1s ease-in;
+	transition-delay:0.5s;
+}
+.serie3:hover {
+	width:100%;
+	height:700px;
+	background:url("series3.gif");
+	transition:1s ease-in;
+	align-items:center;
+	background-size:100% 700px;
+	background-repeat: no-repeat;
+	background-position:center;
+	transition:1s ease-in;
+	transition-delay:0.5s; 
+}
+#detaliiserie3 {
+	float:left;
+	text-align:left;
+	margin-top:350px;
+	margin-left:4%;
+	font-size:20px;
+}
+.serie3 a {
+	color:inherit;
+	text-decoration:inherit;
+}
+#detaliiserie3:hover {
+	text-decoration:underline;
+}
+#cumparaserie3 {
+	float:right;
+	text-align:right;
+	margin-top:350px;
+	margin-right:4%;
+	font-size:20px;
+}
+#cumparaserie3 a {
+	color:inherit;
+	text-decoration:inherit;
+}
+#cumparaserie3:hover {
+	text-decoration:underline;
+}
+/*footer ok*/
+.footer{
+	width:100%;
+	height:320px;
+	background:#2c2c2c;
+	display:grid;
+	margin:auto; 
+	border-top:1px black solid;
+}
+.lista1 {
+	position:absolute;
+	float: left;
+	width:33%;
+	text-align:center;
+	margin-left:1%;
+	margin:0 auto;
+}
+.lista1 li {
+	list-style-type:none;
+	font-size:19px;
+	margin-top:1px;
+	color:white;
+	font-family:'Open Sans Condensed';
+	letter-spacing:0.5px;
+	margin-right:-50%;
+}
+.lista1 h3 {
+	font-size:20px;
+	font-family: 'Roboto Condensed';
+	margin-top:20px;
+	margin-bottom:10px;
+	margin-right:-50%;
+}
+.lista1 li:hover {
+	color:#959595;
+}
+.lista2 {
+	width:33%;
+	float:left;
+	text-align:center;
+	position:absolute;
+	margin-left:33%;
+}
+.lista2 li {
+	list-style-type:none;
+	font-size:19px;
+	margin-top:1px;
+	color:white;
+	font-family:'Open Sans Condensed';
+	letter-spacing:0.5px;
+}
+.lista2 h3 {
+	font-size:20px;
+	font-family: 'Roboto Condensed';
+	margin-top:20px;
+	margin-bottom:10px;
+}
+.lista2 li:hover {
+	color:#959595;
+}
+.lista3 {
+	float:right;
+	text-align:center;
+	margin-left:66%;
+	position:absolute;
+	width:33%;
+}
+.lista3 li {
+	list-style-type:none;
+	font-size:19px;
+	margin-top:1px;
+	color:white;
+	font-family:'Open Sans Condensed';
+	letter-spacing:0.5px;
+	margin-left:-50%;
+}
+.lista3 h3 {
+	font-size:20px;
+	font-family:'Roboto Condensed';
+	margin-top:20px;
+	margin-bottom:10px;
+	margin-left:-50%;
+}
+.lista3 li:hover {
+	color:#959595;
+	text-decoration:underline;
+}
+.footer a {
+  color: inherit;
+  text-decoration:inherit;
+}
+.copyright{
+	width:100%;
+	height:30px;
+	background:#1a1a1a;
+	margin-top:290px;
+	font-size:13px;
+	text-align:center;
+	color:#8c8c8c;
+}
